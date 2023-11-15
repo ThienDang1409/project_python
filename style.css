@@ -1,0 +1,166 @@
+body{
+    background-color: #333333;
+    color:white
+ }
+ h1{
+    color: yellowgreen;
+     margin-top: 0%;
+     text-align: CENTER;
+     font-family: CURSIVE;
+     font-size: XXX-LARGE;
+ }
+ h3{
+    color: yellow;
+ }
+ .box{
+     height: 156px;
+     width: 156px;
+     border: solid white 2px;
+     background-color: #333333;
+     display: grid;
+     grid-template-columns: auto auto auto;
+ }
+ #main{
+     height: 480px;
+     width: 480px;
+     border: solid white 4px;
+     display: flex;
+     flex-direction: row;
+     margin-left: 34%;
+     margin-top: -1%;
+ }
+ .cell{
+     height: 50px;
+     width: 50px;
+     border: solid white 1px;
+     text-align: center;
+     background-color: #333333;
+     text-align: center;
+     font-size: x-large;
+     font-weight: bold;
+ }
+ input{
+     height: 45px;
+     width: 44px;
+     border: none;
+     text-align: center;
+     font-size: x-large;
+     font-weight: bold;
+     background-color: #333333;
+     color: white;
+     transition: transform 0.3s;
+ }
+ 
+ input:hover {
+    transform: scale(1.2);
+}
+ button{
+     height: 70px;
+     width: 200px;
+     font-size: x-large;
+     font-weight: bold;
+     background-color: grey;
+     border: solid 4px black;
+     border-radius: 30px;
+     color: greenyellow;
+     position: absolute;
+     cursor: pointer;
+     transition: background-color 0.3s, transform 0.3s;
+ }
+ button:hover {
+    background-color: darkred;
+    transform: scale(1.1);
+
+}
+ #replay{
+     top: 12%;
+     left: 10%;
+ }
+ #start{
+     top: 27%;
+     left: 10%;
+ }
+ #support{
+     top: 42%;
+     left: 10%;
+ }
+ 
+ #stop{
+    top: 57%;
+    left: 10%;
+}
+#answer{
+    top: 72%;
+    left: 10%;
+}
+#help{
+    left:10%;
+    top: 72%;
+}
+ #game_type{
+     position: absolute;
+     top: 24%;
+     left: 75%;
+     
+ }
+ 
+ .label{
+     height: 15px;
+     width: 15px;
+     cursor: pointer;
+ }
+ 
+ #lives{
+     position: absolute;
+     top: 13%;
+     left: 72%;
+     color: orangered;
+     font-weight: bold;
+     font-size: x-large;
+ }
+ 
+ #timer{
+     top: 10%;
+     position: absolute;
+     left: 75%;
+     font-size: x-large;
+     color: yellow;
+     font-weight: bold;
+     
+ }
+ #time_now{
+    top: 90%;
+    position: absolute;
+    left: 85%;
+    font-size: x-large;
+    color: yellow;
+    font-weight: bold;
+    
+}
+#button4x4{
+    top: 85%;
+    left: 35%;
+}
+
+#button9x9{
+    top: 85%;
+    left: 52%;
+}
+
+.grid-button {
+    border: none;
+    padding: 10px 20px;
+    font-size: x-large;
+    cursor: pointer;
+    background-color: #333333;
+    transition: background-color 0.3s, transform 0.3s;
+}
+
+.grid-button:hover {
+    background-color: darkred;
+    transform: scale(1.1);
+}
+
+
+ 
+ 
