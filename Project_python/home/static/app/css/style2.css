@@ -13,12 +13,12 @@ body{
     color: yellow;
  }
  .box{
-     height: 156px;
-     width: 156px;
-     border: solid white 2px;
+     height: 234px;
+     width: 234px;
+     border: solid white 4px;
      background-color: #333333;
      display: grid;
-     grid-template-columns: auto auto auto;
+     grid-template-columns: auto auto;
  }
  #main{
      height: 480px;
@@ -30,8 +30,8 @@ body{
      margin-top: -1%;
  }
  .cell{
-     height: 50px;
-     width: 50px;
+     height: 115px;
+     width: 115px;
      border: solid white 1px;
      text-align: center;
      background-color: #333333;
@@ -40,8 +40,8 @@ body{
      font-weight: bold;
  }
  input{
-     height: 45px;
-     width: 44px;
+     height: 110px;
+     width: 105px;
      border: none;
      text-align: center;
      font-size: x-large;
@@ -104,6 +104,12 @@ body{
      
  }
  
+ #info{
+    position: absolute;
+    top: 45%;
+    left: 75%;
+    color: orangered;
+ }  
  .label{
      height: 15px;
      width: 15px;
@@ -160,7 +166,4 @@ body{
     background-color: darkred;
     transform: scale(1.1);
 }
-
-
- 
  
